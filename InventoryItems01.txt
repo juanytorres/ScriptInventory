@@ -11,3 +11,9 @@ CREATE TABLE InventoryItems
  )
 )
 
+  INSERT INTO InventoryItems ( IdItem, Name, Amount, InventoryCode)
+   SELECT  1, 'Laptop', 15540, '0000001'
+  INSERT INTO InventoryItems ( IdItem, Name, Amount, InventoryCode)
+   SELECT  2,  'Escritorio', 5800, '0000002'
+   
+   
