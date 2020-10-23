@@ -1,0 +1,13 @@
+
+CREATE TABLE InventoryItems
+(
+	IdItem int NOT NULL, 
+	Name varchar(50) NOT NULL, 
+	Amount float NOT NULL, 
+	InventoryCode varchar(50) NOT NULL,
+ CONSTRAINT [InventoryItems_PK] PRIMARY KEY CLUSTERED 
+ (
+	IdItem ASC
+ )
+)
+
